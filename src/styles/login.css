@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+
+.form-signin {
+  width: 80%;
+  max-width: 330px;
+  padding: 10px;
+  margin: 0px auto;
+  margin-top: 40px;
+}
+
+.h4.mb-3{
+  color: white;
+  font-size: 35px;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: 10px!important;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 1;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.google-btn {
+  cursor: pointer;
+  margin-top: 5px;
+  width: 100%;
+  height: 42px;
+  background-color: blue;
+  border-radius: 2px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+  transition: box-shadow .3s ease;
+}
+
+.google-icon-wrapper {
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 1px;
+  width: 40px;
+  height: 40px;
+  border-radius: 2px;
+}
+
+.google-icon {
+  position: absolute;
+  margin-top: 11px;
+  margin-left: 20px;
+  width: 20px;
+  background: white;
+  height: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.btn-text {
+  float: right;
+  margin: 9px 13px 0 0;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+}
+
+.nothing__main-content {
+align-items: center;
+background-color: #5C62C5;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 100vh;
+
+
+}
+
+.nothing__main-content p {
+text-align: center;
+}
+
+.btn.btn-primary.btn-block{
+  background: #FED941;
+  border: none;
+  margin-top: 10px;
+  width: 70%;
+  color: black;
+}
+
+.google-btn.btn-primary {
+  background: #b7b7b79e;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  align-items: inherit;
+}
+
+#google-login {
+  background: #ff4b4bc7;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+#fb-login {
+  background: #0c2f6d;
+  margin-bottom: 30px;
+}
+
+.p-login{
+  margin-top: 20px;
+    font-size: 16px;
+    color: #7d7c7c;
+}
+
+.link{
+  text-decoration: none;
+    color: #f6d840b8;
+}
+
+#logo-img{
+    width: 150px;
+}

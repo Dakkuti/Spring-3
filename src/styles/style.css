@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+
+body{
+  margin: 0px;
+  background: #0F0E17;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/*NOT FOUND*/
+#h1-notFound{    
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+}
+
+#img-notFound{
+    width: 355px;
+    height: 340px;
+    margin: 0px auto;
+    display: flex;
+}
+
+/*NAVBAR*/
+#navbarSupportedContent{
+  font-size: 22px;
+  margin-top: 5px!important;
+  margin-left: 12px!important;
+}
+
+
+#nav{
+  background: #0F0E17!important;
+  padding: 20px;
+}
+
+/*HOME*/
+#point {
+  border: 2px solid #ffff00ba;
+  border-left: none;
+  background: #00000082;
+  border-radius: 0px 40px 40px 0px;
+  width: 115px;
+  position: absolute;
+  margin-top: -28%;
+  font-size: 35px;
+}
+
+#point img{
+  width: 40px;
+}
+
+li img{
+  border-radius: 15px;
+}
+
+#Home-h2{
+  color: white;
+  margin-left: 60px;
+  font-size: 45px;
+  letter-spacing: -0.005em;
+}
+/*CARDS*/
+#ul-movies
+{
+  display: inline-flex;
+}
+
+#ul-movies li {
+  color: white;
+  width: inherit;
+  list-style: none;
+  margin-top: 20px;
+  margin-left: 33px;
+}
+
+/*ADD MOVIES*/
+#title-addMovies{
+color:white;
+}
+
+.mb-3{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.mb-3 input{
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+}
+
+#form-addMovie {
+  display: flex;
+  width: 60%;
+  margin: 0px auto;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+#form-addMovie label {
+  color: white;
+  font-size: 18px;
+  text-align: initial;
+}
+
+#fileSelector{
+  margin-top: 10px;
+}
+
+
+/**APP TAKS**/
+.App-logo{
+  width: 20%;
+}
+
+#img-Moviecard {
+  width: 191px;
+  margin-left: -29px;
+  height: 185px;
+}
+#desc-moviesCard{
+  text-align: justify;
+}
+
+/*SLIDER*/
+#carouselExampleControlsNoTouching{
+  width: 95%;
+  margin: 0px auto;
+  padding-top: 20px;
+
+}
+
+/***PLAYER***/
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+video:hover .Player-back {
+  display: block;
+}
+
+.Player-back {
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  font-size: 12px;
+}
+
+.Player-back button {
+  text-decoration: none;
+  color: white;
+  background: rgba(0, 0, 0, .3);
+  padding: 5px;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
